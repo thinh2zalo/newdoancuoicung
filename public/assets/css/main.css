@@ -2160,7 +2160,7 @@ button.TabLink.is-active, button.TabLink:active{
   border-bottom-right-radius:5px;
 }
 
-.BlogPages-SocialClear .BlogShareButton.st_facebook_custom:hover{
+.BlogPages-SocialClear .BlogShareButton.st_faceBook_custom:hover{
   background-color:#3b5998;
 }
 
@@ -2301,7 +2301,7 @@ button.TabLink.is-active, button.TabLink:active{
 
 .BlogHome-QuoteContainer{
   padding:25px 0 45px;
-  background:#37312a url(https://static.thriftbooks.com/site_images/wood.jpg);
+  background:#37312a url(https://static.thriftBooks.com/site_images/wood.jpg);
   color:#fff;
   text-align:center;
 }
@@ -7032,7 +7032,7 @@ button.GlobalMessage-link:hover{
 
 .FooterContainer{
   position:relative;
-  background:#35938b url(https://static.thriftbooks.com/site_images/paper-teal-bg.jpg);
+  background:#35938b url(https://static.thriftBooks.com/site_images/paper-teal-bg.jpg);
 }
 
 .Footer-bg{
@@ -7042,7 +7042,7 @@ button.GlobalMessage-link:hover{
   left:0;
   z-index:-100;
   height:300px;
-  background:url(https://static.thriftbooks.com/site_images/page-bg.png) 0 0;
+  background:url(https://static.thriftBooks.com/site_images/page-bg.png) 0 0;
   -webkit-background-size:auto 200px;
   background-size:auto 200px;
   -webkit-transform:translateZ(0);
@@ -7627,7 +7627,7 @@ button.GlobalMenuSub-title .Icon.is-active{
 
 .EmailSignupBanner{
   overflow:hidden;
-  background:#35938b url(https://static.thriftbooks.com/site_images/paper-teal-bg.jpg);
+  background:#35938b url(https://static.thriftBooks.com/site_images/paper-teal-bg.jpg);
   color:#fff;
   text-align:center;
 }
@@ -8442,7 +8442,7 @@ button.GlobalCart-removedItem-link{
   overflow:hidden;
   width:100%;
   height:50px;
-  background:#35938b url(https://static.thriftbooks.com/site_images/paper-teal-bg.jpg);
+  background:#35938b url(https://static.thriftBooks.com/site_images/paper-teal-bg.jpg);
   color:#fff;
   text-align:center;
 }
@@ -9728,7 +9728,7 @@ a.ShoppingCartItem-moveToWishlist svg.Icon{
   width:100%;
   height:120px;
   border:1px solid #e1dbcf;
-  background:#fff url(https://static.thriftbooks.com/site_images/page-bg.png);
+  background:#fff url(https://static.thriftBooks.com/site_images/page-bg.png);
   background-position:bottom;
   -webkit-background-size:contain;
   background-size:contain;
@@ -9832,7 +9832,7 @@ a.ShoppingCartItem-moveToWishlist svg.Icon{
   height:100%;
   -webkit-border-radius:2px;
   border-radius:2px;
-  background-image:url(https://static.thriftbooks.com/site_images/rr-stripev2_277faeb9.png);
+  background-image:url(https://static.thriftBooks.com/site_images/rr-stripev2_277faeb9.png);
   -webkit-animation-name:f;
   animation-name:f;
   -webkit-animation-duration:1s;
@@ -10828,64 +10828,64 @@ a.ShoppingCartItem-moveToWishlist svg.Icon{
   font-size:.875rem;
 }
 
-.AuthorPage-bookList{
+.AuthorPage-BookList{
   padding:0;
 }
 
-.AuthorPage-bookList .AuthorPage-BookItem{
+.AuthorPage-BookList .AuthorPage-BookItem{
   display:inline-block;
   width:24%;
 }
 
-.AuthorPage-bookList .AuthorPage-BookItem.SeeAll-Item{
+.AuthorPage-BookList .AuthorPage-BookItem.SeeAll-Item{
   display:none;
 }
 
 @media screen and (max-width:600px) {
-  .AuthorPage-bookList .AuthorPage-BookItem{
+  .AuthorPage-BookList .AuthorPage-BookItem{
     width:49%;
   }
 }
 
 @media screen and (max-width:400px) {
-  .AuthorPage-bookList .AuthorPage-BookItem{
+  .AuthorPage-BookList .AuthorPage-BookItem{
     width:100%;
   }
 }
 
-.AuthorPage-bookList.is-list .AuthorPage-BookItem{
+.AuthorPage-BookList.is-list .AuthorPage-BookItem{
   display:block;
   width:100%;
 }
 
-.AuthorPage-bookList.is-list .AuthorPage-BookItem.Hidden{
+.AuthorPage-BookList.is-list .AuthorPage-BookItem.Hidden{
   display:none;
 }
 
-.AuthorPage-bookList.is-list .AuthorPage-BookItem.SeeAll-Item{
+.AuthorPage-BookList.is-list .AuthorPage-BookItem.SeeAll-Item{
   padding:20px;
   color:#2c7b74;
   text-align:center;
   cursor:pointer;
 }
 
-.AuthorPage-bookList.is-list .AuthorPage-BookItem.SeeAll-Item .SeeAll-Button{
+.AuthorPage-BookList.is-list .AuthorPage-BookItem.SeeAll-Item .SeeAll-Button{
   display:block;
 }
 
-.AuthorPage-bookList.is-list .AuthorPage-BookItem.SeeAll-Item:hover{
+.AuthorPage-BookList.is-list .AuthorPage-BookItem.SeeAll-Item:hover{
   text-decoration:underline;
 }
 
-.AuthorPage-bookItem--list{
+.AuthorPage-BookItem--list{
   display:none;
 }
 
-.AuthorPage-bookItem--grid, .AuthorPage-bookList.is-list .AuthorPage-bookItem--list{
+.AuthorPage-BookItem--grid, .AuthorPage-BookList.is-list .AuthorPage-BookItem--list{
   display:block;
 }
 
-.AuthorPage-bookList.is-list .AuthorPage-bookItem--grid{
+.AuthorPage-BookList.is-list .AuthorPage-BookItem--grid{
   display:none;
 }
 
@@ -11067,7 +11067,7 @@ a.ShoppingCartItem-moveToWishlist svg.Icon{
   height:15px;
 }
 
-.ShareThisButton.st_facebook_custom{
+.ShareThisButton.st_faceBook_custom{
   background-color:#3b5998;
 }
 
@@ -11236,7 +11236,7 @@ a.ShoppingCartItem-moveToWishlist svg.Icon{
 
 .AboutUs-header{
   padding:50px;
-  background-image:url(https://static.thriftbooks.com/site_images/hp_hero.jpg);
+  background-image:url(https://static.thriftBooks.com/site_images/hp_hero.jpg);
   -webkit-background-size:cover;
   background-size:cover;
   color:#fff;
@@ -11299,7 +11299,7 @@ a.ShoppingCartItem-moveToWishlist svg.Icon{
   position:relative;
   z-index:1;
   padding:50px;
-  background:#35938b url(https://static.thriftbooks.com/site_images/canvas-teal_90e2073f.jpg);
+  background:#35938b url(https://static.thriftBooks.com/site_images/canvas-teal_90e2073f.jpg);
 }
 
 .AboutUs-sectionBreak p{
@@ -12647,7 +12647,7 @@ button.AccountPersonalInfo-clearBirthday{
 }
 
 .HomeAbout{
-  background:#37312a url(https://static.thriftbooks.com/site_images/wood.jpg);
+  background:#37312a url(https://static.thriftBooks.com/site_images/wood.jpg);
   -webkit-box-shadow:0 12px 8px -10px rgba(0,0,0,.16),0 5px 5px -2px rgba(0,0,0,.26);
   box-shadow:0 12px 8px -10px rgba(0,0,0,.16),0 5px 5px -2px rgba(0,0,0,.26);
   color:#fff;
@@ -13996,7 +13996,7 @@ a.LibrarySignUp-backLink .Button{
 .LibrarySignUp-header{
   margin:0;
   padding:2rem;
-  background:#35938b url(https://static.thriftbooks.com/site_images/canvas-teal_90e2073f.jpg);
+  background:#35938b url(https://static.thriftBooks.com/site_images/canvas-teal_90e2073f.jpg);
   color:#fff;
   text-align:center;
 }
@@ -14093,7 +14093,7 @@ a.LibrarySignUp-backLink .Button{
   left:0;
   width:100%;
   height:4rem;
-  background:url(https://static.thriftbooks.com/site_images/stacks-white_7c6517ea.png) repeat-x;
+  background:url(https://static.thriftBooks.com/site_images/stacks-white_7c6517ea.png) repeat-x;
 }
 
 .LibrarySignUp-benefits-header{
@@ -14243,7 +14243,7 @@ a.LibrarySignUp-backLink .Button{
   left:0;
   width:100%;
   height:4rem;
-  background:url(https://static.thriftbooks.com/site_images/stacks-tan_292ed10f.png) repeat-x;
+  background:url(https://static.thriftBooks.com/site_images/stacks-tan_292ed10f.png) repeat-x;
 }
 
 .LibrarySignUp-difference{
@@ -15113,7 +15113,7 @@ button.LibrarySignUp-faqLink.is-active .Icon{
   height:15px;
 }
 
-.StaticPages-Shares .ShareThisButton.st_facebook_custom{
+.StaticPages-Shares .ShareThisButton.st_faceBook_custom{
   background-color:#3b5998;
 }
 
@@ -16333,7 +16333,7 @@ button.WorkMeta-showMoreDetails .Icon{
   height:15px;
 }
 
-.WorkMeta-shares .ShareThisButton.st_facebook_custom{
+.WorkMeta-shares .ShareThisButton.st_faceBook_custom{
   background-color:#3b5998;
 }
 
@@ -17718,7 +17718,7 @@ button.WorkMeta-showMoreDetails .Icon{
   background-color:#efefef;
 }
 
-.Wishlist-bookBy{
+.Wishlist-BookBy{
   margin-top:-12px;
   margin-bottom:12px;
 }
@@ -18700,7 +18700,7 @@ button.WorkMeta-showMoreDetails .Icon{
   }
 }
 
-.CollectiblesModule-books{
+.CollectiblesModule-Books{
   display:-webkit-box;
   display:-webkit-flex;
   display:-ms-flexbox;
@@ -18708,12 +18708,12 @@ button.WorkMeta-showMoreDetails .Icon{
 }
 
 @media screen and (max-width:800px) {
-  .CollectiblesModule-books{
+  .CollectiblesModule-Books{
     display:block;
   }
 }
 
-.CollectiblesModule-book{
+.CollectiblesModule-Book{
   display:-webkit-box;
   display:-webkit-flex;
   display:-ms-flexbox;
@@ -18734,12 +18734,12 @@ button.WorkMeta-showMoreDetails .Icon{
   -ms-flex-align:end;
 }
 
-.CollectiblesModule-book:hover{
+.CollectiblesModule-Book:hover{
   text-decoration:none;
 }
 
 @media screen and (max-width:800px) {
-  .CollectiblesModule-book{
+  .CollectiblesModule-Book{
     padding:1.5rem 0;
     width:100%;
     border-left:none!important;
@@ -18747,12 +18747,12 @@ button.WorkMeta-showMoreDetails .Icon{
 }
 
 @media screen and (max-width:800px) {
-  .CollectiblesModule-book + .CollectiblesModule-book{
+  .CollectiblesModule-Book + .CollectiblesModule-Book{
     border-top:1px solid #d7d7d7;
   }
 }
 
-.CollectiblesModule-book h5{
+.CollectiblesModule-Book h5{
   display:-webkit-box;
   overflow:hidden;
   margin:0;
@@ -18766,29 +18766,29 @@ button.WorkMeta-showMoreDetails .Icon{
 }
 
 @media screen and (max-width:800px) {
-  .CollectiblesModule-book h5{
+  .CollectiblesModule-Book h5{
     font-size:1rem;
   }
 }
 
-.CollectiblesModule-book .Button-container{
+.CollectiblesModule-Book .Button-container{
   padding:.25rem;
   background-color:#fc3;
 }
 
-.CollectiblesModule-book .Button{
+.CollectiblesModule-Book .Button{
   padding:.1rem 2rem;
   color:#363636;
   white-space:nowrap;
 }
 
 @media screen and (max-width:800px) {
-  .CollectiblesModule-book .Button{
+  .CollectiblesModule-Book .Button{
     font-size:.875rem;
   }
 }
 
-.CollectiblesModule-book:nth-child(2n){
+.CollectiblesModule-Book:nth-child(2n){
   border-left:1px solid #efefef;
 }
 
@@ -18834,7 +18834,7 @@ button.WorkMeta-showMoreDetails .Icon{
   height:1.4rem;
 }
 
-.CollectiblesModule-bookInformation{
+.CollectiblesModule-BookInformation{
   -webkit-flex:1 1 auto;
   -ms-flex:1 1 auto;
   flex:1 1 auto;
@@ -20924,7 +20924,7 @@ button.CollectibleSortBar-header:hover{
 .ContestContainer{
   padding:4rem .5rem;
   min-height:800px;
-  background:no-repeat 50% url(https://static.thriftbooks.com/general/girl-shocked-TAF-compressor_31a63cc6.jpg);
+  background:no-repeat 50% url(https://static.thriftBooks.com/general/girl-shocked-TAF-compressor_31a63cc6.jpg);
   -webkit-background-size:cover;
   background-size:cover;
 }
@@ -21014,7 +21014,7 @@ h3.Contest-slim{
   height:15px;
 }
 
-.Contest-shares .ShareThisButton.st_facebook_custom{
+.Contest-shares .ShareThisButton.st_faceBook_custom{
   background-color:#3b5998;
 }
 

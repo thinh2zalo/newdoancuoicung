@@ -40,7 +40,7 @@ exports.update = (c) => {
     return db.save(sql);
 };
 exports.updateHinhAnh = (id, hinh) => {
-    var sql = `update Book set hinhAnh = 'img/book/${hinh}'
+    var sql = `update Book set hinhAnh = 'img/Book/${hinh}'
                                      where idSach = ${id}`;
     return db.save(sql);
 };

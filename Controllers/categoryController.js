@@ -19,7 +19,7 @@ router.get('/', (req, res) => {
         var vm = {
             url:"/tim-kiem",
             loai: rowloais,
-            book:rowBooks,
+            Book:rowBooks,
             NhaSX:rowNhaSXs
         };
         res.render('search/tim-kiem', vm);
@@ -33,7 +33,7 @@ router.get('/theo-loai/', (req, res) => {
         req.session.reUrl = "/tim-kiem/theo-loai/?id="+req.query.id;
         var vm = {
             loai: rowloais,
-            book:rowBooks,
+            Book:rowBooks,
             NhaSX:rowNhaSXs,
             loaifull:loaifull[0],
             url : "/tim-kiem/theo-loai/?id="+req.query.id
@@ -51,7 +51,7 @@ router.get('/theo-NhaSX/', (req, res) => {
         req.session.reUrl = "/tim-kiem/theo-NhaSX/?id="+req.query.id;
         var vm = {
             loai: rowloais,
-            book:rowBooks,
+            Book:rowBooks,
             NhaSX:rowNhaSXs,
             tenNXB:tenNXB[0],
             url : "/tim-kiem/theo-NhaSX/?id="+req.query.id
@@ -67,7 +67,7 @@ router.get('/theo-gia/', (req, res) => {
         req.session.reUrl = "/tim-kiem/theo-gia/?giadau=" + req.query.giadau + "&giacuoi=" + req.query.giacuoi;
         var vm = {
             loai: rowloais,
-            book:rowBooks,
+            Book:rowBooks,
             NhaSX:rowNhaSXs,
             keyword: req.query.giadau,
             keyword2: req.query.giacuoi,

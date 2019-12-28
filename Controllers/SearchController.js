@@ -19,7 +19,7 @@ router.get('/', (req, res) => {
     Promise.all([p1, p3, p4]).then(([rowloais, rowBooks, rowNhaSXs]) => {
         var vm = {
             loai: rowloais,
-            book: rowBooks,
+            Book: rowBooks,
             NhaSX: rowNhaSXs,
             keyword: req.query.keyword,
             url : "/tim-voi-key?selectDanhMuc=" + req.query.selectDanhMuc + "&keyword=" + req.query.keyword

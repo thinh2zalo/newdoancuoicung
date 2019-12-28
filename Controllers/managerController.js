@@ -237,7 +237,7 @@ router.post('/sanpham/edit', (req, res, next) => {
 });
 
 var storage = multer.diskStorage({
-    destination: 'public/img/book',
+    destination: 'public/img/Book',
     filename: (req, file, cb) => {
         cb(null, file.originalname);
     }

@@ -119,13 +119,13 @@
                     <!--30 days return-->
                     <div class="main-nav-wrap comNav fl" style="margin-left:14%">
                         <span class="clearfloat">
-                            <img src="/image/address-book-64.png" class="nav-icon fl">
+                            <img src="/image/address-Book-64.png" class="nav-icon fl">
                             <span class="nav-long fl">Thể loại sách</span>
                         </span>
                         <ul class="main-nav-cont">
                             <li class="main-nav-list">
                                 <a href="/tim-kiem" target="_blank">
-                                    {{#each layoutVM.categories}}
+                                    {{#each layoutVM.Categories}}
                                     <a href="/tim-kiem/theo-loai/?id={{idLoai}}">{{tenLoai}}</a>
                                     {{/each}}
                                     <div class="nav-arrow-sub">
@@ -144,7 +144,7 @@
                         <ul class="main-nav-cont">
                             <li class="main-nav-list">
                                 <a href="/tim-kiem" target="_blank">
-                                    {{#each layoutVM.book}}
+                                    {{#each layoutVM.Book}}
                                     <a href="/tim-kiem/theo-loai/?id={{idSach}}">{{tac_gia}}</a>
                                     {{/each}}
                                     <div class="nav-arrow-sub">

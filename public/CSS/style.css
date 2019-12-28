@@ -296,7 +296,7 @@ vertical-align: middle; font-size: 22px; font-weight: 400; border-radius: 3px; p
 .topboard-ads .topboard-inner img{width: 100%;}
 
 /* Sibebar */
-.sidebar-outer .sidebar-block, .sidebar-outer .topboard-book{padding-left: 0px; margin-bottom: 20px;}
+.sidebar-outer .sidebar-block, .sidebar-outer .topboard-Book{padding-left: 0px; margin-bottom: 20px;}
 .sidebar-outer .sidebar-block .topboard-title{background: #e6e6e6; color: #000000;}
 .sidebar-outer .sidebar-block .topboard-inner .topboard-items{padding: 15px 13px 5px 13px;}
 .sidebar-outer .sidebar-block .topboard-inner .topboard-items li{min-height: inherit; margin-bottom: 15px;}
@@ -321,7 +321,7 @@ body.category .home-feature-outer{border: none; height: 320px;}
 .content-block-product-list .list-item-default .item-outer .item-title a,
 .content-block-product-list .list-item-default .item-outer .item-view-more{color: #006db2;}
 .content-block-product-list .list-item-default .item-outer .item-author a{color: #151515; font-size: 12px;}
-.content-block-product-list .list-item-default .item-outer .item-bookformat a{color: #666666; font-size: 11px;}
+.content-block-product-list .list-item-default .item-outer .item-Bookformat a{color: #666666; font-size: 11px;}
 .content-block-product-list .list-item-default .item-outer .item-percent-bubble{top: -18px; right: 46px;}
 
 .sidebar-block-category-lv1{position: relative; height: 50px; }
@@ -362,8 +362,8 @@ body.category .home-feature-outer{border: none; height: 320px;}
 .single-outer .item-thumb-outer img{height: 100%; width: auto; margin: auto; display: block; max-height: 420px;}
 .single-outer .item-general-info .item-title{font-size: 26px; font-weight: bold; line-height: 26px;}
 .single-outer .item-general-info .item-author{font-size: 14px; color: #151515;}
-.single-outer .item-general-info .item-bookformat,
-.single-outer .item-general-info .item-bookformat a{font-size: 14px; color: #666666;}
+.single-outer .item-general-info .item-Bookformat,
+.single-outer .item-general-info .item-Bookformat a{font-size: 14px; color: #666666;}
 .single-outer .item-general-info .item-rating{}
 
 .single-outer .item-general-info .item-excerpt{font-size: 14px; color: #151515;}

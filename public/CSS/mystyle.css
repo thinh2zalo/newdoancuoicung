@@ -1,7 +1,7 @@
 .user-name-login{
     color: aliceblue !important;
 }
-.owl-cachep-book-lib .item{
+.owl-cachep-Book-lib .item{
 padding: 12px !important;
 }
 .item .item-outer .item-thumb span{
@@ -100,12 +100,12 @@ background: #FF0101;
     margin-bottom: 8px;
     font-size: 12px
 }
-.book-description{
+.Book-description{
     float: left;
     
 }
 
-.a.book-review-btn {
+.a.Book-review-btn {
    
     display: table !important;
 }
@@ -149,7 +149,7 @@ float: left;
 }
 .image-box .magiczoom a {
     display: block;
-}.image-box .magiczoom a .book-review-btn  {
+}.image-box .magiczoom a .Book-review-btn  {
         text-align: right;
 }
 

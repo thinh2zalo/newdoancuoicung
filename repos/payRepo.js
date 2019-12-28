@@ -42,7 +42,7 @@ exports.getAllPayment = ()=>{
     return db.load(sql);
 };
 exports.getBook=(idBook)=>{
-    var sql=`select* from book where idSach='${idBook}'`;
+    var sql=`select* from Book where idSach='${idBook}'`;
     return db.load(sql);
 };
 exports.updateSLBook=(idBook,luotmua,sl)=>{

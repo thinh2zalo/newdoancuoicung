@@ -34,11 +34,11 @@ exports.loadByPD = (idNXB) => {
 
 
 exports.loadTheLoai = (idTheLoai,idSach) => {
-    var sql= `select * from book where idLoai='${idTheLoai}' and idSach!='${idSach}'`;
+    var sql= `select * from Book where idLoai='${idTheLoai}' and idSach!='${idSach}'`;
     return db.load(sql);
 }
 exports.loadNhaSX = (idNXB,idSach) => {
-    var sql= `select * from book where idNhaSX='${idNXB}' and idSach!='${idSach}'`;
+    var sql= `select * from Book where idNhaSX='${idNXB}' and idSach!='${idSach}'`;
     return db.load(sql);
 }
 exports.updateLX=(idSach,lx)=>{

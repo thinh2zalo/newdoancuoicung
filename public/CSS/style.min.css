@@ -3950,8 +3950,8 @@ a.label:hover {
 .btn-bitbucket:active,
 .btn-dropbox.active,
 .btn-dropbox:active,
-.btn-facebook.active,
-.btn-facebook:active,
+.btn-faceBook.active,
+.btn-faceBook:active,
 .btn-flickr.active,
 .btn-flickr:active,
 .btn-foursquare.active,
@@ -3983,7 +3983,7 @@ a.label:hover {
 .open>.dropdown-toggle.btn-adn,
 .open>.dropdown-toggle.btn-bitbucket,
 .open>.dropdown-toggle.btn-dropbox,
-.open>.dropdown-toggle.btn-facebook,
+.open>.dropdown-toggle.btn-faceBook,
 .open>.dropdown-toggle.btn-flickr,
 .open>.dropdown-toggle.btn-foursquare,
 .open>.dropdown-toggle.btn-github,
@@ -4678,10 +4678,10 @@ a.label:hover {
 .fa-tags:before {
     content: "\f02c"
 }
-.fa-book:before {
+.fa-Book:before {
     content: "\f02d"
 }
-.fa-bookmark:before {
+.fa-Bookmark:before {
     content: "\f02e"
 }
 .fa-print:before {
@@ -4925,7 +4925,7 @@ a.label:hover {
 .fa-twitter-square:before {
     content: "\f081"
 }
-.fa-facebook-square:before {
+.fa-faceBook-square:before {
     content: "\f082"
 }
 .fa-camera-retro:before {
@@ -4986,7 +4986,7 @@ a.label:hover {
 .fa-square-o:before {
     content: "\f096"
 }
-.fa-bookmark-o:before {
+.fa-Bookmark-o:before {
     content: "\f097"
 }
 .fa-phone-square:before {
@@ -4995,7 +4995,7 @@ a.label:hover {
 .fa-twitter:before {
     content: "\f099"
 }
-.fa-facebook:before {
+.fa-faceBook:before {
     content: "\f09a"
 }
 .fa-github:before {
@@ -6271,43 +6271,43 @@ fieldset[disabled] .btn-dropbox:hover {
     color: #1087dd;
     background-color: #fff
 }
-.btn-facebook {
+.btn-faceBook {
     color: #fff;
     background-color: #3b5998;
     border-color: rgba(0, 0, 0, 2)
 }
-.btn-facebook.active,
-.btn-facebook.focus,
-.btn-facebook:active,
-.btn-facebook:focus,
-.btn-facebook:hover,
-.open>.dropdown-toggle.btn-facebook {
+.btn-faceBook.active,
+.btn-faceBook.focus,
+.btn-faceBook:active,
+.btn-faceBook:focus,
+.btn-faceBook:hover,
+.open>.dropdown-toggle.btn-faceBook {
     color: #fff;
     background-color: #2d4373;
     border-color: rgba(0, 0, 0, 2)
 }
-.btn-facebook.disabled,
-.btn-facebook.disabled.active,
-.btn-facebook.disabled.focus,
-.btn-facebook.disabled:active,
-.btn-facebook.disabled:focus,
-.btn-facebook.disabled:hover,
-.btn-facebook[disabled],
-.btn-facebook[disabled].active,
-.btn-facebook[disabled].focus,
-.btn-facebook[disabled]:active,
-.btn-facebook[disabled]:focus,
-.btn-facebook[disabled]:hover,
-fieldset[disabled] .btn-facebook,
-fieldset[disabled] .btn-facebook.active,
-fieldset[disabled] .btn-facebook.focus,
-fieldset[disabled] .btn-facebook:active,
-fieldset[disabled] .btn-facebook:focus,
-fieldset[disabled] .btn-facebook:hover {
+.btn-faceBook.disabled,
+.btn-faceBook.disabled.active,
+.btn-faceBook.disabled.focus,
+.btn-faceBook.disabled:active,
+.btn-faceBook.disabled:focus,
+.btn-faceBook.disabled:hover,
+.btn-faceBook[disabled],
+.btn-faceBook[disabled].active,
+.btn-faceBook[disabled].focus,
+.btn-faceBook[disabled]:active,
+.btn-faceBook[disabled]:focus,
+.btn-faceBook[disabled]:hover,
+fieldset[disabled] .btn-faceBook,
+fieldset[disabled] .btn-faceBook.active,
+fieldset[disabled] .btn-faceBook.focus,
+fieldset[disabled] .btn-faceBook:active,
+fieldset[disabled] .btn-faceBook:focus,
+fieldset[disabled] .btn-faceBook:hover {
     background-color: #3b5998;
     border-color: rgba(0, 0, 0, 2)
 }
-.btn-facebook .badge {
+.btn-faceBook .badge {
     color: #3b5998;
     background-color: #fff
 }
@@ -9263,8 +9263,8 @@ fieldset[disabled] .btn-openid:hover {
         width: 100%
     }
 }
-.reading-book-dialog>.inner .col3 .row1 .ccontrol .cnext,
-.reading-book-dialog>.inner .col3 .row1 .ccontrol .cprev {
+.reading-Book-dialog>.inner .col3 .row1 .ccontrol .cnext,
+.reading-Book-dialog>.inner .col3 .row1 .ccontrol .cprev {
     display: inline-block;
     background: #e5e5e5;
     color: #919296;

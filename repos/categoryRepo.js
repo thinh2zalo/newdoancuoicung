@@ -4,24 +4,24 @@
 var db = require('../fn/db');
 
 exports.loadAll = () => {
-    var sql = `select * from categories`;
+    var sql = `select * from Categories`;
     return db.load(sql);
 
 };
 exports.loadAllLoai = () => {
-    var sql = `select * from loai`;
+    var sql = `select * from Loai`;
     return db.load(sql);
 
 };
 
-// load book cung loai & nsx (detail book)
+// load Book cung loai & nsx (detail Book)
 exports.loadAllBook = () => {
-    var sql = `select * from book`;
+    var sql = `select * from Book`;
     return db.load(sql);
 
 };
 exports.loadAllBook_arr = () => {
-    var sql = `select * from book`;
+    var sql = `select * from Book`;
     return db.load(sql);
 
 };
@@ -48,20 +48,20 @@ exports.load_by_idNhaSX = (id) => {
 exports.search_with_keyword = (keyword,idMuc) => {
 if(idMuc==2)
 {
-    var sql = `Select * from book where ten_sach like '%${keyword}%'`;
+    var sql = `Select * from Book where ten_sach like '%${keyword}%'`;
 
 }
 else if(idMuc==3)
 {
-    var sql = `Select * from book where tac_gia like '%${keyword}%'`;
+    var sql = `Select * from Book where tac_gia like '%${keyword}%'`;
 
 }
 else if(idMuc==4){
-    var sql = `Select * from book,NhaSX where book.idNhaSX=NhaSX.idNhaSX and tenNhaSX like '%${keyword}%'`;
+    var sql = `Select * from Book,NhaSX where Book.idNhaSX=NhaSX.idNhaSX and tenNhaSX like '%${keyword}%'`;
 
 }
 else {
-    var sql = `Select distinct idSach,ten_sach, giaBan,hinhAnh,tac_gia from book,NhaSX where book.idNhaSX=NhaSX.idNhaSX and tenNhaSX like '%${keyword}%' or
+    var sql = `Select distinct idSach,ten_sach, giaBan,hinhAnh,tac_gia from Book,NhaSX where Book.idNhaSX=NhaSX.idNhaSX and tenNhaSX like '%${keyword}%' or
     ten_sach like '%${keyword}%' or tac_gia like '%${keyword}%'`;
 
 }
@@ -69,7 +69,7 @@ else {
 }
 exports.search_with_price = (giadau,giacuoi) => {
 
-    var sql = `Select * from book where giaBan>='${giadau}' and giaBan<='${giacuoi}'`;
+    var sql = `Select * from Book where giaBan>='${giadau}' and giaBan<='${giacuoi}'`;
     return db.load(sql);
 }
 exports.updateLoai = (idLoai,tenLoai)=>{
@@ -77,7 +77,7 @@ exports.updateLoai = (idLoai,tenLoai)=>{
     return db.save(sql);
 };
 exports.deleteLoai=(idLoai)=>{
-	var sql = `delete from loai where idLoai = ${idLoai}`;
+	var sql = `delete from Loai where idLoai = ${idLoai}`;
     return db.save(sql);
 };
 exports.addLoai=(tenLoai)=>{
@@ -96,7 +96,7 @@ exports.addNXB=(tenNXB)=>{
 };
 
 exports.addNewBook=(Book)=>{
-    var sql=`insert into Book(ngayNhapHang, luotMua, luotXem,idNhaSX,hinhAnh,moTa,idLoai,giaBan,ten_sach,tac_gia,soLuong) values('${Book.ngayNhap}', '0', '0','${Book.idNXB}','img/book/${Book.hinhAnh}','${Book.moTa}','${Book.idLoai}','${Book.giaBan}','${Book.tenSach}','${Book.tacGia}','${Book.soLuong}')`;
+    var sql=`insert into Book(ngayNhapHang, luotMua, luotXem,idNhaSX,hinhAnh,moTa,idLoai,giaBan,ten_sach,tac_gia,soLuong) values('${Book.ngayNhap}', '0', '0','${Book.idNXB}','img/Book/${Book.hinhAnh}','${Book.moTa}','${Book.idLoai}','${Book.giaBan}','${Book.tenSach}','${Book.tacGia}','${Book.soLuong}')`;
     return db.save(sql);
 };
 exports.loadNXB=(idNXB)=>{
@@ -104,6 +104,6 @@ exports.loadNXB=(idNXB)=>{
     return db.load(sql);
 };
 exports.loadL=(idLoai)=>{
-    var sql=`Select * from loai  where idLoai='${idLoai}'`;
+    var sql=`Select * from Loai  where idLoai='${idLoai}'`;
     return db.load(sql);
 };

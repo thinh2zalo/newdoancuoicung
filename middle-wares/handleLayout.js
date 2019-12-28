@@ -15,12 +15,12 @@ module.exports = (req, res, next) => {
     Promise.all([p1,menu,nxb]).then(([rows,menu,nxb]) => {
 
         res.locals.layoutVM = {
-            categories: rows,
+            Categories: rows,
             suppliers: rows,
             isLogged: req.session.isLogged,
             curUser: req.session.user,
             totalCart: req.session.cart.length,
-            categories: menu,
+            Categories: menu,
             nxb:nxb,
             Authorized:req.session.Authorized,
             reUrl:req.session.reUrl

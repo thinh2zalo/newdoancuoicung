@@ -4349,7 +4349,7 @@ a.badge:focus, a.badge:hover, a.label:focus, a.label:hover{
   filter:progid: DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
 }
 
-.btn-adn.active, .btn-adn:active, .btn-bitbucket.active, .btn-bitbucket:active, .btn-dropbox.active, .btn-dropbox:active, .btn-facebook.active, .btn-facebook:active, .btn-flickr.active, .btn-flickr:active, .btn-foursquare.active, .btn-foursquare:active, .btn-github.active, .btn-github:active, .btn-google-plus.active, .btn-google-plus:active, .btn-instagram.active, .btn-instagram:active, .btn-microsoft.active, .btn-microsoft:active, .btn-openid.active, .btn-openid:active, .btn-reddit.active, .btn-reddit:active, .btn-soundcloud.active, .btn-soundcloud:active, .btn-tumblr.active, .btn-tumblr:active, .btn-twitter.active, .btn-twitter:active, .btn-vimeo.active, .btn-vimeo:active, .btn-vk.active, .btn-vk:active, .btn-yahoo.active, .btn-yahoo:active, .open > .dropdown-toggle.btn-adn, .open > .dropdown-toggle.btn-bitbucket, .open > .dropdown-toggle.btn-dropbox, .open > .dropdown-toggle.btn-facebook, .open > .dropdown-toggle.btn-flickr, .open > .dropdown-toggle.btn-foursquare, .open > .dropdown-toggle.btn-github, .open > .dropdown-toggle.btn-google-plus, .open > .dropdown-toggle.btn-instagram, .open > .dropdown-toggle.btn-microsoft, .open > .dropdown-toggle.btn-openid, .open > .dropdown-toggle.btn-reddit, .open > .dropdown-toggle.btn-soundcloud, .open > .dropdown-toggle.btn-tumblr, .open > .dropdown-toggle.btn-twitter, .open > .dropdown-toggle.btn-vimeo, .open > .dropdown-toggle.btn-vk, .open > .dropdown-toggle.btn-yahoo{
+.btn-adn.active, .btn-adn:active, .btn-bitbucket.active, .btn-bitbucket:active, .btn-dropbox.active, .btn-dropbox:active, .btn-faceBook.active, .btn-faceBook:active, .btn-flickr.active, .btn-flickr:active, .btn-foursquare.active, .btn-foursquare:active, .btn-github.active, .btn-github:active, .btn-google-plus.active, .btn-google-plus:active, .btn-instagram.active, .btn-instagram:active, .btn-microsoft.active, .btn-microsoft:active, .btn-openid.active, .btn-openid:active, .btn-reddit.active, .btn-reddit:active, .btn-soundcloud.active, .btn-soundcloud:active, .btn-tumblr.active, .btn-tumblr:active, .btn-twitter.active, .btn-twitter:active, .btn-vimeo.active, .btn-vimeo:active, .btn-vk.active, .btn-vk:active, .btn-yahoo.active, .btn-yahoo:active, .open > .dropdown-toggle.btn-adn, .open > .dropdown-toggle.btn-bitbucket, .open > .dropdown-toggle.btn-dropbox, .open > .dropdown-toggle.btn-faceBook, .open > .dropdown-toggle.btn-flickr, .open > .dropdown-toggle.btn-foursquare, .open > .dropdown-toggle.btn-github, .open > .dropdown-toggle.btn-google-plus, .open > .dropdown-toggle.btn-instagram, .open > .dropdown-toggle.btn-microsoft, .open > .dropdown-toggle.btn-openid, .open > .dropdown-toggle.btn-reddit, .open > .dropdown-toggle.btn-soundcloud, .open > .dropdown-toggle.btn-tumblr, .open > .dropdown-toggle.btn-twitter, .open > .dropdown-toggle.btn-vimeo, .open > .dropdown-toggle.btn-vk, .open > .dropdown-toggle.btn-yahoo{
   background-image:none;
 }
 
@@ -5061,11 +5061,11 @@ a.badge:focus, a.badge:hover, a.label:focus, a.label:hover{
   content:"\f02c";
 }
 
-.fa-book:before{
+.fa-Book:before{
   content:"\f02d";
 }
 
-.fa-bookmark:before{
+.fa-Bookmark:before{
   content:"\f02e";
 }
 
@@ -5381,7 +5381,7 @@ a.badge:focus, a.badge:hover, a.label:focus, a.label:hover{
   content:"\f081";
 }
 
-.fa-facebook-square:before{
+.fa-faceBook-square:before{
   content:"\f082";
 }
 
@@ -5461,7 +5461,7 @@ a.badge:focus, a.badge:hover, a.label:focus, a.label:hover{
   content:"\f096";
 }
 
-.fa-bookmark-o:before{
+.fa-Bookmark-o:before{
   content:"\f097";
 }
 
@@ -5473,7 +5473,7 @@ a.badge:focus, a.badge:hover, a.label:focus, a.label:hover{
   content:"\f099";
 }
 
-.fa-facebook:before{
+.fa-faceBook:before{
   content:"\f09a";
 }
 
@@ -6988,24 +6988,24 @@ a.badge:focus, a.badge:hover, a.label:focus, a.label:hover{
   background-color:#fff;
 }
 
-.btn-facebook{
+.btn-faceBook{
   color:#fff;
   background-color:#3b5998;
   border-color:rgba(0, 0, 0, 2);
 }
 
-.btn-facebook.active, .btn-facebook.focus, .btn-facebook:active, .btn-facebook:focus, .btn-facebook:hover, .open > .dropdown-toggle.btn-facebook{
+.btn-faceBook.active, .btn-faceBook.focus, .btn-faceBook:active, .btn-faceBook:focus, .btn-faceBook:hover, .open > .dropdown-toggle.btn-faceBook{
   color:#fff;
   background-color:#2d4373;
   border-color:rgba(0, 0, 0, 2);
 }
 
-.btn-facebook.disabled, .btn-facebook.disabled.active, .btn-facebook.disabled.focus, .btn-facebook.disabled:active, .btn-facebook.disabled:focus, .btn-facebook.disabled:hover, .btn-facebook[disabled], .btn-facebook[disabled].active, .btn-facebook[disabled].focus, .btn-facebook[disabled]:active, .btn-facebook[disabled]:focus, .btn-facebook[disabled]:hover, fieldset[disabled] .btn-facebook, fieldset[disabled] .btn-facebook.active, fieldset[disabled] .btn-facebook.focus, fieldset[disabled] .btn-facebook:active, fieldset[disabled] .btn-facebook:focus, fieldset[disabled] .btn-facebook:hover{
+.btn-faceBook.disabled, .btn-faceBook.disabled.active, .btn-faceBook.disabled.focus, .btn-faceBook.disabled:active, .btn-faceBook.disabled:focus, .btn-faceBook.disabled:hover, .btn-faceBook[disabled], .btn-faceBook[disabled].active, .btn-faceBook[disabled].focus, .btn-faceBook[disabled]:active, .btn-faceBook[disabled]:focus, .btn-faceBook[disabled]:hover, fieldset[disabled] .btn-faceBook, fieldset[disabled] .btn-faceBook.active, fieldset[disabled] .btn-faceBook.focus, fieldset[disabled] .btn-faceBook:active, fieldset[disabled] .btn-faceBook:focus, fieldset[disabled] .btn-faceBook:hover{
   background-color:#3b5998;
   border-color:rgba(0, 0, 0, 2);
 }
 
-.btn-facebook .badge{
+.btn-faceBook .badge{
   color:#3b5998;
   background-color:#fff;
 }
@@ -7843,7 +7843,7 @@ a.badge:focus, a.badge:hover, a.label:focus, a.label:hover{
   animation-name:rollIn;
 }
 
-.reading-book-dialog > .inner .col3 .row1 .ccontrol .cnext, .reading-book-dialog > .inner .col3 .row1 .ccontrol .cprev{
+.reading-Book-dialog > .inner .col3 .row1 .ccontrol .cnext, .reading-Book-dialog > .inner .col3 .row1 .ccontrol .cprev{
   display:inline-block;
   background:#e5e5e5;
   color:#919296;
